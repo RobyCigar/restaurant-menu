@@ -17,7 +17,7 @@ int main()
     string itemName;
 
     setAuth();
-    setArt();
+    setHeader();
     setData(&restaurantMenu);
     do {
         setOptions(&choice);

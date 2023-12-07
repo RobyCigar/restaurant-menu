@@ -5,7 +5,7 @@
 #include "menu.h"
 
 
-void setArt();
+void setHeader();
 void setOptions(int *choice) ;
 void setData(Menu *restaurantmenu);
 #endif
