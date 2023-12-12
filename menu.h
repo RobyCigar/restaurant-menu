@@ -45,6 +45,7 @@ public:
     void getAll();
     MenuItem *search(string name);
     void remove(string name);
+    void pop();
     void sortItems();
 };
 

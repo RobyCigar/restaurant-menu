@@ -65,3 +65,9 @@ void Operation::removeMenu(Menu *restaurantMenu)
 
     restaurantMenu->remove(itemName);
 }
+
+void Operation::removeLast(Menu *restaurantMenu)
+{
+    restaurantMenu->pop();
+    restaurantMenu->getAll();
+}

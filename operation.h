@@ -13,6 +13,7 @@ public:
     void searchMenu(Menu *menu);
     void insertMenu(Menu *menu);
     void removeMenu(Menu *menu);
+    void removeLast(Menu *menu);
     void sortMenu(Menu *menu);
 };
 #endif

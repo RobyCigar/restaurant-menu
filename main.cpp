@@ -41,7 +41,9 @@ int main()
         case 5:
             operation.sortMenu(&restaurantMenu);
             break;
-
+        case 6:
+            operation.removeLast(&restaurantMenu);
+            break;
         case 0:
             cout << "Sampai jumpa 😭\n";
             break;

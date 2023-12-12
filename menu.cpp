@@ -40,6 +40,33 @@ MenuItem *Menu::search(string name)
     return nullptr;
 }
 
+void Menu::pop()
+{
+
+    if (head->next == nullptr)
+    {
+        delete head;
+        head = nullptr;
+    }
+    else
+    {
+        MenuItem *current = head;
+        MenuItem *previous = nullptr;
+
+        while (current->next != nullptr)
+        {
+            previous = current;
+            current = current->next;
+        }
+
+        delete current;
+
+        previous->next = nullptr;
+    }
+
+    cout << "Menu berhasil terhapus\n";
+}
+
 void Menu::remove(string name)
 {
     MenuItem *current = head;
