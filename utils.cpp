@@ -21,6 +21,8 @@ void setOptions(int *choice) {
     std::cout << "4. Hapus Menu\n";
     std::cout << "5. Sort Menu berdasarkan harga\n";
     std::cout << "6. Hapus menu terakhir\n";
+    std::cout << "7. Buat Resep\n";
+    std::cout << "8. Tampilkan Resep\n";
     std::cout << "0. Keluar\n";
     std::cout << "Masukkan Pilihanmu: ";
     std::cin >> *choice;
